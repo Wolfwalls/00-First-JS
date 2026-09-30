@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <p><span id="name">CHANGE THE NAME HERE</span> is a <span id="adjective">CHANGE THIS ADJECTIVE</span> from the planet <span id="planet">CHANGE THIS PLANET</span>. They are <span id="age">THIS AGE</span>  years old, next year they will be <span id="nextyear">CHANGE THIS AGE</span></p>
+    <script>
+        let changedname="Gabriel"
+        let changedadjective="angel"
+        let changedplanet="Earth"
+        let changedage= 1000
+        document.getElementById("name").textContent = changedname
+        document.getElementById("adjective").textContent = changedadjective
+        document.getElementById("planet").textContent = changedplanet
+        document.getElementById("age").textContent = changedage
+        document.getElementById("nextyear").textContent = changedage + 1
+
+    </script>
+    <!-- #you get 4 variables to change the values of things above
+    #2 variables are strings, one is a number and use math for next year.  -->
+</body>
+</html>
